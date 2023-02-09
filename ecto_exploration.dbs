@@ -9,7 +9,7 @@ maps
 	{
 		defaultwalltexture = "HLTX1303";
 		overridemiddletexture = false;
-		defaultceiltexture = "GRIDF_G";
+		defaultceiltexture = "HLTX2861";
 		overrideceiltexture = false;
 		custombrightness = 196;
 		scriptcompiler = "zdoom_acs.cfg";
@@ -17,8 +17,8 @@ maps
 		resources
 		{
 		}
-		viewpositiony = -2155.986f;
-		viewpositionx = 1105.758f;
+		viewpositiony = -1473.732f;
+		viewpositionx = 133.8662f;
 		
 		testprecommand
 		{
@@ -38,11 +38,11 @@ maps
 			gridrotate = 0;
 			backscalex = 100;
 			gridoriginx = 0;
-			gridsize = 16;
+			gridsize = 32;
 			background = "";
 			backoffsety = 0;
 		}
-		viewscale = 0.7220062f;
+		viewscale = 0.5118547f;
 		
 		reloadresourceprecommand
 		{
@@ -54,6 +54,112 @@ maps
 		overridebottomtexture = false;
 		defaultbottomtexture = "HLTX1303";
 		defaultfloortexture = "BSTX0169";
+		overrideceilheight = false;
+		overridebrightness = false;
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		overridefloorheight = false;
+		overridetoptexture = false;
+		uselongtexturenames = false;
+		overridefloortexture = false;
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		plugins
+		{
+			
+			threedfloormode
+			{
+				
+				controlsectorarea
+				{
+					usecustomtagrange = false;
+					outerleft = -9856;
+					outerright = -9344;
+					outertop = -20480;
+					outerbottom = -20992;
+				}
+			}
+		}
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				user_managed_3d_floor = 3;
+			}
+		}
+	}
+	
+	MAP01
+	{
+		defaultwalltexture = "STONE";
+		overridemiddletexture = false;
+		defaultceiltexture = "CEIL5_1";
+		overrideceiltexture = false;
+		custombrightness = 196;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		resources
+		{
+		}
+		viewpositiony = -288.164f;
+		viewpositionx = -2085.978f;
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsetx = 0;
+			backsource = 0;
+			gridoriginy = 0;
+			backscaley = 100;
+			gridrotate = 0;
+			backscalex = 100;
+			gridoriginx = 0;
+			gridsize = 8;
+			background = "";
+			backoffsety = 0;
+		}
+		viewscale = 0.3746347f;
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		defaulttoptexture = "STONE";
+		overridebottomtexture = false;
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				user_managed_3d_floor = 3;
+			}
+		}
+		defaultbottomtexture = "STONE";
+		defaultfloortexture = "FLOOR0_6";
 		overrideceilheight = false;
 		overridebrightness = false;
 		
