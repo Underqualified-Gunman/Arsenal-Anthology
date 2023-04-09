@@ -114,8 +114,8 @@ maps
 		resources
 		{
 		}
-		viewpositiony = -288.164f;
-		viewpositionx = -2085.978f;
+		viewpositiony = -1377.245f;
+		viewpositionx = -1870.77f;
 		
 		testprecommand
 		{
@@ -135,11 +135,11 @@ maps
 			gridrotate = 0;
 			backscalex = 100;
 			gridoriginx = 0;
-			gridsize = 8;
+			gridsize = 2;
 			background = "";
 			backoffsety = 0;
 		}
-		viewscale = 0.3746347f;
+		viewscale = 0.8230715f;
 		
 		reloadresourceprecommand
 		{
@@ -149,6 +149,28 @@ maps
 		}
 		defaulttoptexture = "STONE";
 		overridebottomtexture = false;
+		defaultbottomtexture = "STONE";
+		defaultfloortexture = "FLOOR0_6";
+		overrideceilheight = false;
+		overridebrightness = false;
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		overridefloorheight = false;
+		overridetoptexture = false;
+		uselongtexturenames = false;
+		overridefloortexture = false;
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
 		
 		fieldtypes
 		{
@@ -158,8 +180,57 @@ maps
 				user_managed_3d_floor = 3;
 			}
 		}
-		defaultbottomtexture = "STONE";
-		defaultfloortexture = "FLOOR0_6";
+	}
+	
+	MAP02
+	{
+		defaultwalltexture = "WIMP_O";
+		overridemiddletexture = false;
+		defaultceiltexture = "F_GRDF_G";
+		overrideceiltexture = false;
+		custombrightness = 196;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		resources
+		{
+		}
+		viewpositiony = -2269.67f;
+		viewpositionx = 3129.403f;
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsetx = 0;
+			backsource = 0;
+			gridoriginy = 0;
+			backscaley = 100;
+			gridrotate = 0;
+			backscalex = 100;
+			gridoriginx = 0;
+			gridsize = 4;
+			background = "";
+			backoffsety = 0;
+		}
+		viewscale = 0.8003156f;
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		defaulttoptexture = "WIMP_O";
+		overridebottomtexture = false;
+		defaultbottomtexture = "WIMP_O";
+		defaultfloortexture = "F_GRDF_G";
 		overrideceilheight = false;
 		overridebrightness = false;
 		

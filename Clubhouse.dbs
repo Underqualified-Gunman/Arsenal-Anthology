@@ -18,9 +18,9 @@ maps
 				{
 					usecustomtagrange = false;
 					outerleft = 13056;
-					outerright = 13568;
+					outerright = 16768;
 					outertop = 5312;
-					outerbottom = 4800;
+					outerbottom = 1920;
 				}
 			}
 		}
@@ -28,8 +28,8 @@ maps
 		resources
 		{
 		}
-		defaultfloortexture = "1_GRIDF_";
-		defaultceiltexture = "F_GRDF_G";
+		defaultfloortexture = "FLAT4";
+		defaultceiltexture = "F_SKY1";
 		defaulttoptexture = "WIMP_O";
 		defaultwalltexture = "WIMP_O";
 		defaultbottomtexture = "WIMP_O";
@@ -45,9 +45,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 304.2631f;
-		viewpositiony = -864.9437f;
-		viewscale = 3.137374f;
+		viewpositionx = 923.4085f;
+		viewpositiony = -1062.227f;
+		viewscale = 0.04826741f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
