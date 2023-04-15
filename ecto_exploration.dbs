@@ -114,8 +114,8 @@ maps
 		resources
 		{
 		}
-		viewpositiony = -1377.245f;
-		viewpositionx = -1870.77f;
+		viewpositiony = 2672.038f;
+		viewpositionx = -429.993f;
 		
 		testprecommand
 		{
@@ -135,11 +135,11 @@ maps
 			gridrotate = 0;
 			backscalex = 100;
 			gridoriginx = 0;
-			gridsize = 2;
+			gridsize = 32;
 			background = "";
 			backoffsety = 0;
 		}
-		viewscale = 0.8230715f;
+		viewscale = 1.808285f;
 		
 		reloadresourceprecommand
 		{
@@ -194,8 +194,8 @@ maps
 		resources
 		{
 		}
-		viewpositiony = -2269.67f;
-		viewpositionx = 3129.403f;
+		viewpositiony = -1815.505f;
+		viewpositionx = 1024.049f;
 		
 		testprecommand
 		{
@@ -215,11 +215,11 @@ maps
 			gridrotate = 0;
 			backscalex = 100;
 			gridoriginx = 0;
-			gridsize = 4;
+			gridsize = 8;
 			background = "";
 			backoffsety = 0;
 		}
-		viewscale = 0.8003156f;
+		viewscale = 3.862962f;
 		
 		reloadresourceprecommand
 		{
@@ -250,6 +250,31 @@ maps
 			autocloseonsuccess = true;
 			exitcodeiserror = true;
 			stderriserror = true;
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 527;
+				firstvisibleline = 10;
+				activetab = true;
+			}
 		}
 	}
 	
@@ -321,6 +346,101 @@ maps
 			autocloseonsuccess = true;
 			exitcodeiserror = true;
 			stderriserror = true;
+		}
+	}
+	
+	HD_REF
+	{
+		defaultwalltexture = "1_WALL_G";
+		overridemiddletexture = false;
+		defaultceiltexture = "GRIDF_G";
+		overrideceiltexture = false;
+		custombrightness = 196;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		resources
+		{
+		}
+		viewpositiony = -411.1556f;
+		viewpositionx = 432.7897f;
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsetx = 0;
+			backsource = 0;
+			gridoriginy = 0;
+			backscaley = 100;
+			gridrotate = 0;
+			backscalex = 100;
+			gridoriginx = 0;
+			gridsize = 32;
+			background = "";
+			backoffsety = 0;
+		}
+		viewscale = 0.9553236f;
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		defaulttoptexture = "1_WALL_G";
+		overridebottomtexture = false;
+		defaultbottomtexture = "1_WALL_G";
+		defaultfloortexture = "GRIDF_G";
+		overrideceilheight = false;
+		overridebrightness = false;
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		overridefloorheight = false;
+		overridetoptexture = false;
+		uselongtexturenames = false;
+		overridefloortexture = false;
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 80;
+				activetab = true;
+			}
 		}
 	}
 }
