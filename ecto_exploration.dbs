@@ -17,8 +17,8 @@ maps
 		resources
 		{
 		}
-		viewpositiony = -1473.732f;
-		viewpositionx = 133.8662f;
+		viewpositiony = -3434.921f;
+		viewpositionx = 860.8246f;
 		
 		testprecommand
 		{
@@ -38,7 +38,7 @@ maps
 			gridrotate = 0;
 			backscalex = 100;
 			gridoriginx = 0;
-			gridsize = 32;
+			gridsize = 64;
 			background = "";
 			backoffsety = 0;
 		}
@@ -114,8 +114,8 @@ maps
 		resources
 		{
 		}
-		viewpositiony = -619.3241f;
-		viewpositionx = 17.60193f;
+		viewpositiony = -1683.169f;
+		viewpositionx = -576.1542f;
 		
 		testprecommand
 		{
@@ -139,7 +139,7 @@ maps
 			background = "";
 			backoffsety = 0;
 		}
-		viewscale = 5.164615f;
+		viewscale = 3.055984f;
 		
 		reloadresourceprecommand
 		{
@@ -201,7 +201,7 @@ maps
 	
 	MAP02
 	{
-		defaultwalltexture = "WIMP_O";
+		defaultwalltexture = "DOORSTOP";
 		overridemiddletexture = false;
 		defaultceiltexture = "F_GRDF_G";
 		overrideceiltexture = false;
@@ -211,8 +211,8 @@ maps
 		resources
 		{
 		}
-		viewpositiony = -1815.505f;
-		viewpositionx = 1024.049f;
+		viewpositiony = -3118.896f;
+		viewpositionx = 2848.225f;
 		
 		testprecommand
 		{
@@ -236,7 +236,7 @@ maps
 			background = "";
 			backoffsety = 0;
 		}
-		viewscale = 3.862962f;
+		viewscale = 0.2802128f;
 		
 		reloadresourceprecommand
 		{
@@ -244,9 +244,9 @@ maps
 			exitcodeiserror = true;
 			stderriserror = true;
 		}
-		defaulttoptexture = "WIMP_O";
+		defaulttoptexture = "DOORSTOP";
 		overridebottomtexture = false;
-		defaultbottomtexture = "WIMP_O";
+		defaultbottomtexture = "DOORSTOP";
 		defaultfloortexture = "F_GRDF_G";
 		overrideceilheight = false;
 		overridebrightness = false;
@@ -458,6 +458,103 @@ maps
 				caretposition = 80;
 				activetab = true;
 			}
+		}
+	}
+	
+	MAP05
+	{
+		defaultwalltexture = "WIMP_O";
+		overridemiddletexture = false;
+		defaultceiltexture = "F_GRDF_G";
+		overrideceiltexture = false;
+		custombrightness = 196;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		resources
+		{
+		}
+		viewpositiony = 360.1255f;
+		viewpositionx = -389.9375f;
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		customceilheight = 128;
+		
+		plugins
+		{
+			
+			threedfloormode
+			{
+				
+				controlsectorarea
+				{
+					usecustomtagrange = false;
+					outerleft = 27328;
+					outerright = 30208;
+					outertop = 23936;
+					outerbottom = 21184;
+				}
+			}
+		}
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsetx = 0;
+			backsource = 0;
+			gridoriginy = 0;
+			backscaley = 100;
+			gridrotate = 0;
+			backscalex = 100;
+			gridoriginx = 0;
+			gridsize = 16;
+			background = "";
+			backoffsety = 0;
+		}
+		viewscale = 0.3937357f;
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		defaulttoptexture = "WIMP_O";
+		overridebottomtexture = false;
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				user_managed_3d_floor = 3;
+			}
+		}
+		defaultbottomtexture = "WIMP_O";
+		defaultfloortexture = "F_GRDF_G";
+		overrideceilheight = false;
+		overridebrightness = false;
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		overridefloorheight = false;
+		overridetoptexture = false;
+		uselongtexturenames = false;
+		overridefloortexture = false;
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
 		}
 	}
 }

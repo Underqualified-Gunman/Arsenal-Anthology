@@ -28,7 +28,7 @@ maps
 		resources
 		{
 		}
-		defaultfloortexture = "FLAT4";
+		defaultfloortexture = "ASHWALL6";
 		defaultceiltexture = "F_SKY1";
 		defaulttoptexture = "WIMP_O";
 		defaultwalltexture = "WIMP_O";
@@ -45,9 +45,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -759.9559f;
-		viewpositiony = -582.8622f;
-		viewscale = 2.470605f;
+		viewpositionx = -201.6271f;
+		viewpositiony = -971.6611f;
+		viewscale = 0.665408f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
